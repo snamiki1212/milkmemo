@@ -3,18 +3,20 @@ import { connect } from 'react-redux';
 import { inputName } from '../actions';
 
 const mapStateToProps = (state: any) => ({
-  name: state.inputName
+  value: state.inputName,
+  type: 'text',
 })
 
 const mapDispatchToProps = (dispatch: any) => ({
-  inputName: (name: string) => dispatch(inputName(name)),
+  handleChange: (name: string) => dispatch(inputName(name)),
 })
 
-const InputName = ({ inputName, name }: any) => {
+const Input = ({ handleChange, value, type }: any) => {
   return(
     <input
-      value={name}
-      onChange={(event) => inputName(event.target.value)}
+      type={type}
+      value={value}
+      onChange={(event) => handleChange(event.target.value)}
     />
   )
 }
@@ -22,4 +24,4 @@ const InputName = ({ inputName, name }: any) => {
 export default connect(
   mapStateToProps,
   mapDispatchToProps,
-)(InputName);
+)(Input);

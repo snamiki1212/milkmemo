@@ -3,19 +3,20 @@ import { connect } from 'react-redux';
 import { inputCount } from '../actions';
 
 const mapStateToProps = (state: any) => ({
-  count: state.inputCount
+  value: state.inputCount,
+  type: 'number',
 })
 
 const mapDispatchToProps = (dispatch: any) => ({
-  inputCount: (count: number) => dispatch(inputCount(count)),
+  handleChange: (count: number) => dispatch(inputCount(count)),
 })
 
-const InputCount = ({ inputCount, count }: any) => {
+const InputCount = ({ handleChange, value, type}: any) => {
   return(
     <input
-      type='number'
-      value={count}
-      onChange={(event) => inputCount(event.target.value)}
+      type={type}
+      value={value}
+      onChange={(event) => handleChange(event.target.value)}
     />
   )
 }
