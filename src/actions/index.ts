@@ -18,3 +18,7 @@ export const toggleMemo = (id: number) => ({
   type: 'TOGGLE_MEMO',
   id
 })
+
+export const clearInput = () => ({
+  type: 'CLEAR_INPUT'
+})

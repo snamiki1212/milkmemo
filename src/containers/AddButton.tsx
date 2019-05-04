@@ -1,11 +1,11 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { addMemo } from '../actions';
+import { addMemo, clearInput } from '../actions';
 
-const AddButton = ({ addMemo, inputName, inputCount }: any) => {
+const AddButton = ({ handleClick, inputName, inputCount }: any) => {
   return(
     <div>
-      <button onClick={() => addMemo(inputName, inputCount)}>ADD</button>
+      <button onClick={(event) => handleClick(inputName, inputCount)}>ADD</button>
     </div>
   )
 }
@@ -16,7 +16,10 @@ const mapStateToProps = (state: any) => ({
 })
 
 const mapDispatchToProps = (dispatch: any, ownProps: any) => ({
-  addMemo: (inputName: string, inputCount: number) => dispatch( addMemo(inputName, inputCount) ),
+  handleClick: (inputName: string, inputCount: number) => {
+    dispatch( addMemo(inputName, inputCount) );
+    dispatch( clearInput() );
+  },
 })
 
 export default connect(
