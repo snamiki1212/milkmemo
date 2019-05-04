@@ -5,7 +5,10 @@ export const List = ({ list = [] }: any) => { // TODO
   return(
     <ul>
       {list.map((memo: any) => // TODO
-        <li key={memo.id}>
+        <li
+          style={{ textDecoration: memo.finished ? 'line-through' : 'none'}}
+          key={memo.id}
+        >
           <span>{memo.name}</span>
           {" | "}
           <span>{memo.count}</span>
