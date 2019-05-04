@@ -3,3 +3,8 @@ export const addMemo = (name: string, count: number) => ({
   name,
   count
 })
+
+export const inputName = (name: string) => ({
+  type: 'INPUT_NAME',
+  name
+})
