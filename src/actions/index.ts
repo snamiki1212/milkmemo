@@ -13,3 +13,8 @@ export const inputCount = (count: number) => ({
   type: 'INPUT_COUNT',
   count
 })
+
+export const toggleMemo = (id: number) => ({
+  type: 'TOGGLE_MEMO',
+  id
+})

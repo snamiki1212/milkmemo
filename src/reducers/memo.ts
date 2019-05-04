@@ -16,6 +16,16 @@ export const memoList = (state = initial, action: any) => {
       return [...state, newMemo];
     }
 
+    case 'TOGGLE_MEMO':
+      return state.map(memo => {
+        memo.finished =
+          memo.id === action.id
+            ? !memo.finished
+            : memo.finished
+
+        return memo;
+      });
+
     default:
       return state;
   }
