@@ -1,7 +1,7 @@
 import { combineReducers } from "redux";
 import { memoList } from './memo';
-import { inputName } from './input';
+import { inputName, inputCount } from './input';
 
 export default combineReducers(
-  { memoList , inputName} as any
+  { memoList , inputName, inputCount} as any
 );

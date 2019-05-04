@@ -6,3 +6,12 @@ export const inputName = (state = '', action: any) => {
       return state;
   }
 }
+
+export const inputCount = (state = '', action: any) => {
+  switch(action.type){
+    case 'INPUT_COUNT':
+      return action.count;
+    default:
+      return state;
+  }
+}

@@ -3,12 +3,13 @@ import './App.css';
 import List from './containers/List';
 import AddButton from './containers/AddButton';
 import InputName from './containers/InputName';
+import InputCount from './containers/InputCount';
 
 const App: React.FC = () => {
   return (
     <div className="App">
       <InputName />
-      <input type='number' />
+      <InputCount />
       <AddButton />
       <p>MILK MEMO</p>
       <List />

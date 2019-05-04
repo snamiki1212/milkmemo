@@ -8,3 +8,8 @@ export const inputName = (name: string) => ({
   type: 'INPUT_NAME',
   name
 })
+
+export const inputCount = (count: number) => ({
+  type: 'INPUT_COUNT',
+  count
+})
