@@ -1,5 +1,6 @@
 import { combineReducers } from "redux";
+import { memoList } from './memo';
 
 export default combineReducers(
-  {} as any
+  { memoList } as any
 );

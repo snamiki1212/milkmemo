@@ -1,9 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-const l = [{id: 123, name: 'milk', count: 1}, {id: 3424, name: 'coffe', count:2}];
-
-export const List = ({ list=l }:any) => { // TODO
+export const List = ({ list = [] }:any) => { // TODO
   return(
     <ul>
       {list.map((memo:any) => // TODO
@@ -18,7 +16,7 @@ export const List = ({ list=l }:any) => { // TODO
 }
 
 const mapStateToProps = (state: any) => ({
-  list: state.list
+  list: state.memoList
 })
 
 export default connect(
