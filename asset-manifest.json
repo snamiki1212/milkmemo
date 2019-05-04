@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/snamiki1212/milkmemo/static/css/main.3e545749.chunk.css",
-    "main.js": "/snamiki1212/milkmemo/static/js/main.d32424f9.chunk.js",
-    "main.js.map": "/snamiki1212/milkmemo/static/js/main.d32424f9.chunk.js.map",
-    "runtime~main.js": "/snamiki1212/milkmemo/static/js/runtime~main.2b5537e2.js",
-    "runtime~main.js.map": "/snamiki1212/milkmemo/static/js/runtime~main.2b5537e2.js.map",
-    "static/js/2.5151c6ca.chunk.js": "/snamiki1212/milkmemo/static/js/2.5151c6ca.chunk.js",
-    "static/js/2.5151c6ca.chunk.js.map": "/snamiki1212/milkmemo/static/js/2.5151c6ca.chunk.js.map",
-    "index.html": "/snamiki1212/milkmemo/index.html",
-    "precache-manifest.0fd24af66cbf8415ee5acbedeef93189.js": "/snamiki1212/milkmemo/precache-manifest.0fd24af66cbf8415ee5acbedeef93189.js",
-    "service-worker.js": "/snamiki1212/milkmemo/service-worker.js",
-    "static/css/main.3e545749.chunk.css.map": "/snamiki1212/milkmemo/static/css/main.3e545749.chunk.css.map"
+    "main.css": "/milkmemo/static/css/main.3e545749.chunk.css",
+    "main.js": "/milkmemo/static/js/main.8fb7ecc8.chunk.js",
+    "main.js.map": "/milkmemo/static/js/main.8fb7ecc8.chunk.js.map",
+    "runtime~main.js": "/milkmemo/static/js/runtime~main.69b6bb19.js",
+    "runtime~main.js.map": "/milkmemo/static/js/runtime~main.69b6bb19.js.map",
+    "static/js/2.5151c6ca.chunk.js": "/milkmemo/static/js/2.5151c6ca.chunk.js",
+    "static/js/2.5151c6ca.chunk.js.map": "/milkmemo/static/js/2.5151c6ca.chunk.js.map",
+    "index.html": "/milkmemo/index.html",
+    "precache-manifest.2bb681f7d6f43590565284f3fef255a9.js": "/milkmemo/precache-manifest.2bb681f7d6f43590565284f3fef255a9.js",
+    "service-worker.js": "/milkmemo/service-worker.js",
+    "static/css/main.3e545749.chunk.css.map": "/milkmemo/static/css/main.3e545749.chunk.css.map"
   }
 }
