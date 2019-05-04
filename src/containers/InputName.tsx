@@ -2,15 +2,15 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { inputName } from '../actions';
 
-const mapStateToProps = (state:any) => ({
+const mapStateToProps = (state: any) => ({
   name: state.inputName
 })
 
 const mapDispatchToProps = (dispatch: any) => ({
-  inputName: (name:string) => dispatch(inputName(name)),
+  inputName: (name: string) => dispatch(inputName(name)),
 })
 
-const InputName = ({ inputName, name }:any) => {
+const InputName = ({ inputName, name }: any) => {
   return(
     <input
       value={name}

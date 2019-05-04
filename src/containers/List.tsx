@@ -1,10 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-export const List = ({ list = [] }:any) => { // TODO
+export const List = ({ list = [] }: any) => { // TODO
   return(
     <ul>
-      {list.map((memo:any) => // TODO
+      {list.map((memo: any) => // TODO
         <li key={memo.id}>
           <span>{memo.name}</span>
           {" | "}

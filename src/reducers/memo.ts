@@ -5,13 +5,16 @@ const initial = [
 
 export const memoList = (state = initial, action: any) => {
   switch(action.type){
-    case 'ADD_MEMO':
-      const new_memo = {
+    case 'ADD_MEMO': {
+      const newMemo: object = {
         id: Math.round(Math.random()*1000),
         name: action.name,
-        count: action.count,
-      }
-      return [...state, new_memo];
+        count: action.count
+      };
+
+      return [...state, newMemo];
+    }
+
     default:
       return state;
   }
