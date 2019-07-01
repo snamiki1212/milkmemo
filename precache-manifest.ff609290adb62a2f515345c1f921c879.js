@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7eeea1f60165eb542223ce8ebc7780fe",
+    "revision": "6b214d4dd0f21a3ad589f137743b5e24",
     "url": "/milkmemo/index.html"
   },
   {
-    "revision": "087223cf35c643f8a67d",
+    "revision": "a5cb63f30a77e6521990",
     "url": "/milkmemo/static/css/main.3e545749.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/milkmemo/static/js/2.5151c6ca.chunk.js"
   },
   {
-    "revision": "087223cf35c643f8a67d",
-    "url": "/milkmemo/static/js/main.8fb7ecc8.chunk.js"
+    "revision": "a5cb63f30a77e6521990",
+    "url": "/milkmemo/static/js/main.be3ea00a.chunk.js"
   },
   {
     "revision": "2334fab7b51d23c842b3",

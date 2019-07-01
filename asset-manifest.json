@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/milkmemo/static/css/main.3e545749.chunk.css",
-    "main.js": "/milkmemo/static/js/main.8fb7ecc8.chunk.js",
-    "main.js.map": "/milkmemo/static/js/main.8fb7ecc8.chunk.js.map",
+    "main.js": "/milkmemo/static/js/main.be3ea00a.chunk.js",
+    "main.js.map": "/milkmemo/static/js/main.be3ea00a.chunk.js.map",
     "runtime~main.js": "/milkmemo/static/js/runtime~main.69b6bb19.js",
     "runtime~main.js.map": "/milkmemo/static/js/runtime~main.69b6bb19.js.map",
     "static/js/2.5151c6ca.chunk.js": "/milkmemo/static/js/2.5151c6ca.chunk.js",
     "static/js/2.5151c6ca.chunk.js.map": "/milkmemo/static/js/2.5151c6ca.chunk.js.map",
     "index.html": "/milkmemo/index.html",
-    "precache-manifest.2bb681f7d6f43590565284f3fef255a9.js": "/milkmemo/precache-manifest.2bb681f7d6f43590565284f3fef255a9.js",
+    "precache-manifest.ff609290adb62a2f515345c1f921c879.js": "/milkmemo/precache-manifest.ff609290adb62a2f515345c1f921c879.js",
     "service-worker.js": "/milkmemo/service-worker.js",
     "static/css/main.3e545749.chunk.css.map": "/milkmemo/static/css/main.3e545749.chunk.css.map"
   }

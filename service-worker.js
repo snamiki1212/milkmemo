@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 importScripts(
-  "/milkmemo/precache-manifest.2bb681f7d6f43590565284f3fef255a9.js"
+  "/milkmemo/precache-manifest.ff609290adb62a2f515345c1f921c879.js"
 );
 
 self.addEventListener('message', (event) => {
